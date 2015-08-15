@@ -13,5 +13,5 @@
   var s = document.createElement('script');
   s.type = 'text/javascript';
   s.src = safari.extension.baseURI + 'domManipulation.js';
-  document.documentElement.appendChild(s);
+  head.appendChild(s);
 })();
